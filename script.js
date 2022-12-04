@@ -1,5 +1,7 @@
 const imgs = document.getElementById("img");
 const img = document.querySelectorAll("#img img");
+const menu = document.querySelector(".menu");
+var i = 1
 
 let idx = 0;
 
@@ -14,3 +16,17 @@ function carrossel(){
 }
 
 setInterval(carrossel, 2800);
+
+function timer(){
+    menu.style.display = "inline"
+}
+
+function MenuInterruptor(){
+    if(i == 1){
+        menu.style.transform = "translateY(100%)";
+        i = 0;
+    } else{
+        menu.style.transform = "translateY(0%)";
+        i = 1;
+    }
+}

@@ -9,8 +9,35 @@
     <title>Simplesmente social
     </title>
 </head>
-<body>
+<body onLoad="setTimeout(timer, 500);">
     <header>
+        <input type="checkbox" id="input-checkbox" class="input-checkbox"/>
+        <label for="input-checkbox" class="nav-button" onclick="MenuInterruptor()">
+            <span></span>
+        </label>
+        <div class="menu">
+            <div class="menuLinks">
+                <a href="#" class="menuTexto">Pagina<br>Principal</a>
+                <br>
+                <br>
+                <a href="#" class="menuTexto">Site da<br>Etec</a>
+                <br>
+                <br>
+                <a href="#" class="menuTexto">Caixa de<br>Sujestões</a>
+                <br>
+                <br>
+                <a href="#" class="menuTexto">Eventos</a>
+            </div>
+            <div>
+                <img class="menuImagens instagram" src="img/instagram.png">
+                <a href="#" class="menuTexto instagramTexto">Instagram</a>
+                <br>
+                <img class="menuImagens discord" src="img/Discord.png">
+                <a href="#" class="menuTexto discordTexto">Discord</a>
+                <img class="menuLogo" src="img/logo_pss2-removebg-preview (3).png">
+                <img class="menuNome" src="img/logo_pss-removebg-preview white.png">
+            </div>
+        </div>
         <nav class="barra"></nav>
         <img class="logo" src="img/logo_pss2-removebg-preview (3).png" alt="">
         <img class="nome" src="img/logo_pss-removebg-preview white.png" alt="">
