@@ -111,6 +111,7 @@ body{
     z-index: 2;
     transition: 1.5s;
     transform: translateY(0%);
+    border-bottom-left-radius: 10%;
 }
 
 .input-checkbox{
@@ -183,14 +184,14 @@ body{
 }
 
 .menuImagens{
-    width: 3vw;
-    height: 6vh;
+    width: 2vw;
+    height: auto;
     pointer-events: none;
 }
 
 .instagram{
     margin-top: 8vh;
-    margin-left: 4vw;
+    margin-left: 4.6vw;
     pointer-events: none;
 }
 
@@ -201,32 +202,33 @@ body{
 }
 
 .discord{
-    margin-left: 3vw;
+    margin-left: 4vw;
     margin-top: 5vh;
-    width: 5vw;
-    height: 6vh;
+    width: 3vw;
+    height: auto;
     pointer-events: none;
 }
 
 .discordTexto{
     position: absolute;
-    margin-top: 5vh;
+    margin-top: 4vh;
+    margin-left: 0.5vw;
 }
 
 .menuLogo{
     position: absolute;
     margin-top: 1vh;
-    margin-left: 7vw;
-    width: 18vw;
-    height: 40vh;
+    margin-left: -2vw;
+    width: 16vw;
+    height: 38vh;
     pointer-events: none;
 }
 
 .menuNome{
     position: absolute;
-    margin-left: -9vw;
-    margin-top: -2vh;
-    width: 22vw;
-    height: 32vh;
+    margin-left: -4vw;
+    margin-top: 0vh;
+    width: 21vw;
+    height: 33vh;
     pointer-events: none;
 }
