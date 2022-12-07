@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.uwu{
+    position: absolute;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.barra{
+    margin-top: 0vh;
+    z-index: 99;
+    position: fixed;
+    height: 5rem;
+    width: 84.3rem;
+    background: linear-gradient(90deg, rgba(91,0,157,1) 0%, rgba(255,0,153,1) 100%);
+}
+.logo{
+    z-index: 99;
+    width: 18rem;
+    height: auto;
+    position: fixed;
+    margin-left: -2rem;
+    margin-top: -13vh;
+}
+.nome{
+    z-index: 99;
+    width: 19rem;
+    height: auto;
+    position: fixed;
+    margin-left: 12rem;
+    margin-top: -12rem;
+}
+
+.container{
+    display:flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+#img{
+    object-fit: cover;
+    height: 400px;
+    width: 800px;
+}
+.custom-shape-divider-top-1670108764 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 35rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1670108764 svg {
+    position: relative;
+    display: block;
+    width: calc(156% + 1.3px);
+    height: 166px;
+   
+}
+
+.custom-shape-divider-top-1670108764 .shape-fill {
+    fill: #FFFFFF;
+}
+.divisão{
+    width: 84.3rem;
+    height:85rem;
+    background: linear-gradient(90deg, rgba(91,0,157,1) 0%, rgba(255,0,153,1) 100%);
+    margin-top: 35rem;
+    position: absolute;
+}
+
+.projetopng{
+        width: 40rem;
+        height: auto;
+        margin-top: -16rem;
+        margin-left: 24rem;
+        float: left;
+        position: absolute;
+}
+.etec{
+    margin-top: 2rem;
+    margin-left: 25rem;
+    position: absolute;
+}
+
+.menu{
+    display: none;
+    margin-top: -90.5vh;
+    position: fixed;
+    margin-left: 70vw;
+    background: linear-gradient(90deg, rgb(206 0 154) 0%, rgba(255,0,153,1) 100%);
+    height: 100vh;
+    width: 30vw;
+    z-index: 100;
+    transition: 1.5s;
+    transform: translateY(0%);
+    border-bottom-left-radius: 10%;
+}
+
+.input-checkbox{
+    margin-top: -19vh;
+    margin-left: 92vw;
+    display: none;
+    z-index: 3;
+    position: absolute;
+}
+.nav-button{
+    margin-top: 1vh;
+    margin-left: 92vw;
+    z-index: 101;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:5vw;
+    height: 10vh;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-button span::before, .nav-button span::after, .nav-button span{
+    background-color: #FFFFFF;
+    width: 3vw;
+    height: 0.6vh;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+.nav-button span::before, .nav-button span::after{
+    content: "";
+    position: relative;
+    display: inline-block;
+}
+
+.nav-button span::before{
+    top: -3.1vh;
+}
+
+.nav-button span::after{
+    top: -3.2vh;
+}
+
+.input-checkbox:checked + .nav-button span{
+    background-color: transparent;
+}
+
+.input-checkbox:checked + .nav-button span::before{
+    top: -13px;
+    transform: rotate(135deg); 
+}
+
+.input-checkbox:checked + .nav-button span::after{
+    top: -32px;
+    transform: rotate(-135deg);
+}
+
+.menuLinks{
+    padding-left: 7.5vw;
+}
+
+.menuTexto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 2.5vw;
+    text-decoration: none;
+}
+
+.menuImagens{
+    width: 2vw;
+    height: auto;
+    pointer-events: none;
+}
+
+.instagram{
+    margin-top: 8vh;
+    margin-left: 4.6vw;
+    pointer-events: none;
+}
+
+.instagramTexto{
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 8vh;
+}
+
+.discord{
+    margin-left: 4vw;
+    margin-top: 5vh;
+    width: 3vw;
+    height: auto;
+    pointer-events: none;
+}
+
+.discordTexto{
+    position: absolute;
+    margin-top: 4vh;
+    margin-left: 0.5vw;
+}
+
+.menuLogo{
+    position: absolute;
+    margin-top: 1vh;
+    margin-left: -2vw;
+    width: 16vw;
+    height: 38vh;
+    pointer-events: none;
+}
+
+.menuNome{
+    position: absolute;
+    margin-left: -4vw;
+    margin-top: 0vh;
+    width: 21vw;
+    height: 33vh;
+    pointer-events: none;
+}
+.texto1{
+    position: absolute;
+    color: black;
+    margin-top: 15vw;
+    margin-left: 10vh;
+    font-size: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.texto2{
+    position: absolute;
+    color: black;
+    margin-top: 25vw;
+    margin-left: 10vh;
+    font-size: 2vw;
+    font-family:  Arial;
+}
+.caixa{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    margin-top: 60vw;
+    margin-left: 20vh;
+    z-index: 5;
+}
+#textnome{
+    margin-top: 50vw;
+    margin-left: 10vh;
+}
+
+.caixatxt{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    margin-top: 65vw;
+    margin-left: 100vh;
+    z-index: 5;
+    color: #FFFFFF;
+}
