@@ -30,3 +30,7 @@ function MenuInterruptor(){
         i = 1;
     }
 }
+
+function blog1(){
+    window.location.replace("indexBlog.html");
+}
