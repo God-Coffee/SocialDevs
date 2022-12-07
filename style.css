@@ -96,6 +96,14 @@ body{
     background-image: url('img/WIP.png');
 }
 
+.blog-texto{
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 55vh;
+    color: white;
+}
+
 .projetopng{
         width: 40rem;
         height: auto;
