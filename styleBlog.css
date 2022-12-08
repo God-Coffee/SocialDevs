@@ -215,6 +215,8 @@ body{
     width: 60vw;
     background-image: url("img/imagem_generica.jpeg");
     z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .titulo-text{
