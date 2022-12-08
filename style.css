@@ -169,11 +169,11 @@ body{
 }
 
 .nav-button span::before{
-    top: -3.1vh;
+    top: -2.7vh;
 }
 
 .nav-button span::after{
-    top: -3.2vh;
+    top: -3vh;
 }
 
 .input-checkbox:checked + .nav-button span{

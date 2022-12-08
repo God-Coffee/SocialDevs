@@ -1,19 +1,5 @@
-const imgs = document.getElementById("img");
-const img = document.querySelectorAll("#img img");
 const menu = document.querySelector(".menu");
-var i = 1
-
-let idx = 0;
-
-function carrossel(){
-    idx++;
-
-    if(idx > img.length - 1){
-        idx = 0;
-    }
-
-    imgs.style.transform = `translateX(${-idx * 800}px)`;
-}
+var i = 1;
 
 setInterval(carrossel, 2800);
 

@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 
-.uwu{
-    position: absolute;
-}
-
 body{
     align-items: center;
     justify-content: center;
@@ -38,16 +34,12 @@ body{
     margin-top: -12rem;
 }
 
-.container{
-    display:flex;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
-}
 #img{
     object-fit: cover;
     height: 400px;
     width: 800px;
 }
+
 .custom-shape-divider-top-1670108764 {
     position: absolute;
     z-index: 1;
@@ -74,20 +66,6 @@ body{
     height:85rem;
     background: linear-gradient(90deg, rgba(91,0,157,1) 0%, rgba(255,0,153,1) 100%);
     margin-top: 35rem;
-    position: absolute;
-}
-
-.projetopng{
-        width: 40rem;
-        height: auto;
-        margin-top: -16rem;
-        margin-left: 24rem;
-        float: left;
-        position: absolute;
-}
-.etec{
-    margin-top: 2rem;
-    margin-left: 25rem;
     position: absolute;
 }
 
@@ -142,7 +120,7 @@ body{
 }
 
 .nav-button span::before{
-    top: -3.1vh;
+    top: -2.7vh;
 }
 
 .nav-button span::after{
@@ -222,42 +200,4 @@ body{
     width: 21vw;
     height: 33vh;
     pointer-events: none;
-}
-.texto1{
-    position: absolute;
-    color: black;
-    margin-top: 15vw;
-    margin-left: 10vh;
-    font-size: 5vw;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.texto2{
-    position: absolute;
-    color: black;
-    margin-top: 25vw;
-    margin-left: 10vh;
-    font-size: 2vw;
-    font-family:  Arial;
-}
-.caixa{
-    width: 20vw;
-    height: auto;
-    position: absolute;
-    margin-top: 60vw;
-    margin-left: 20vh;
-    z-index: 5;
-}
-#textnome{
-    margin-top: 50vw;
-    margin-left: 10vh;
-}
-
-.caixatxt{
-    width: 20vw;
-    height: auto;
-    position: absolute;
-    margin-top: 65vw;
-    margin-left: 100vh;
-    z-index: 5;
-    color: #FFFFFF;
 }
