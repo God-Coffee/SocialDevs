@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 
-.uwu{
-    position: absolute;
-}
-
 body{
     align-items: center;
     justify-content: center;
@@ -19,7 +15,7 @@ body{
     position: fixed;
     height: 5rem;
     width: 84.3rem;
-    background: linear-gradient(90deg, rgb(180, 50, 255) 0%, rgb(255, 44, 174) 100%);
+    background: linear-gradient(90deg,  rgba(91,0,157,1) 0%, rgba(255,0,153,1) 100%);
 }
 .logo{
     z-index: 99;
@@ -38,16 +34,12 @@ body{
     margin-top: -12rem;
 }
 
-.container{
-    display:flex;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
-}
 #img{
     object-fit: cover;
     height: 400px;
     width: 800px;
 }
+
 .custom-shape-divider-top-1670108764 {
     position: absolute;
     z-index: 1;
@@ -66,28 +58,19 @@ body{
    
 }
 
-.custom-shape-divider-top-1670108764 .shape-fill {
-    fill: #FFFFFF;
+.divisão-cima{
+    position: absolute;
+    background: linear-gradient(90deg,  rgba(91,0,157,1) 0%, rgba(255,0,153,1) 100%);
+    height: 35rem;
+    width: 100%;
+    z-index: 1;
 }
+
 .divisão{
     width: 84.3rem;
     height:85rem;
-    background: linear-gradient(90deg, rgb(180, 50, 255) 0%, rgb(255, 44, 174) 100%);
+    background-color: white;
     margin-top: 35rem;
-    position: absolute;
-}
-
-.projetopng{
-        width: 40rem;
-        height: auto;
-        margin-top: -16rem;
-        margin-left: 24rem;
-        float: left;
-        position: absolute;
-}
-.etec{
-    margin-top: 2rem;
-    margin-left: 25rem;
     position: absolute;
 }
 
@@ -96,7 +79,7 @@ body{
     margin-top: -90.5vh;
     position: fixed;
     margin-left: 70vw;
-    background: linear-gradient(90deg, rgb(232 46 198) 0%, rgb(255, 44, 174) 100%);
+    background: linear-gradient(90deg, rgb(206 0 154) 0%, rgba(255,0,153,1) 100%);
     height: 100vh;
     width: 30vw;
     z-index: 100;
@@ -142,7 +125,7 @@ body{
 }
 
 .nav-button span::before{
-    top: -3.1vh;
+    top: -2.7vh;
 }
 
 .nav-button span::after{
@@ -231,6 +214,7 @@ body{
     height: 60vh;
     width: 60vw;
     background-image: url("img/WIP.png");
+    z-index: 2;
 }
 
 .titulo-text{
@@ -238,6 +222,7 @@ body{
     font-size: 2vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 62vh;
+    z-index: 2;
 }
 
 .conteudo-text{
@@ -248,4 +233,5 @@ body{
     margin-left: 3vw;
     margin-right: 2vw;
     color: black;
+    z-index: 2;
 }
