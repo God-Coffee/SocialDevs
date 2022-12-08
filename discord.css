@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+
+.discord{
+    width: 77.6rem;
+    height: 37.89em;
+    position: absolute;
+}
+.social{
+    z-index: 2;
+    width: 17vw;
+    height: auto;
+    margin-top: 36vw;
+    margin-left: 84vh;
+    position: absolute;
+}
+
+.social:hover{
+    transform: scale(1.1);
+}
