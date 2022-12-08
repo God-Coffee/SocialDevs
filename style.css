@@ -94,6 +94,8 @@ body{
     width: 45vw;
     border-radius: 7%;
     background-image: url('img/imagem_generica.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .blog-texto{
