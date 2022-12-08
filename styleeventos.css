@@ -3,10 +3,15 @@
     box-sizing: border-box;
 }
 
+.uwu{
+    position: absolute;
+}
+
 body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    
 }
 
 .barra{
@@ -34,38 +39,58 @@ body{
     margin-top: -12rem;
 }
 
+.container{
+    display:flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
 #img{
     object-fit: cover;
     height: 400px;
     width: 800px;
 }
-
-.custom-shape-divider-top-1670108764 {
+.custom-shape-divider-bottom-1670462082 {
     position: absolute;
-    z-index: 1;
-    margin-top: 35rem;
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    transform: rotate(180deg);
+    z-index: 3;
 }
 
-.custom-shape-divider-top-1670108764 svg {
+.custom-shape-divider-bottom-1670462082 svg {
     position: relative;
     display: block;
-    width: calc(156% + 1.3px);
-    height: 166px;
-   
+    width: calc(140% + 1.3px);
+    height: 164px;
+    transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1670108764 .shape-fill {
+.custom-shape-divider-bottom-1670462082 .shape-fill {
     fill: #FFFFFF;
 }
+    
 .divisão{
     width: 84.3rem;
-    height:85rem;
+    height:41.5rem;
     background: linear-gradient(90deg, rgba(91,0,157,1) 0%, rgba(255,0,153,1) 100%);
-    margin-top: 35rem;
+    margin-top: 0;
+    position: absolute;
+}
+
+.projetopng{
+        width: 40rem;
+        height: auto;
+        margin-top: -16rem;
+        margin-left: 24rem;
+        float: left;
+        position: absolute;
+}
+.etec{
+    margin-top: 2rem;
+    margin-left: 25rem;
     position: absolute;
 }
 
@@ -120,7 +145,7 @@ body{
 }
 
 .nav-button span::before{
-    top: -2.7vh;
+    top: -3.1vh;
 }
 
 .nav-button span::after{
@@ -200,4 +225,94 @@ body{
     width: 21vw;
     height: 33vh;
     pointer-events: none;
+}
+.texto1{
+    position: absolute;
+    color: black;
+    margin-top: 15vw;
+    margin-left: 10vh;
+    font-size: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.texto2{
+    position: absolute;
+    color: black;
+    margin-top: 25vw;
+    margin-left: 10vh;
+    font-size: 2vw;
+    font-family:  Arial;
+}
+.caixa{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    margin-top: 60vw;
+    margin-left: 20vh;
+    z-index: 5;
+}
+#textnome{
+    margin-top: 50vw;
+    margin-left: 10vh;
+}
+
+.caixatxt{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    margin-top: 65vw;
+    margin-left: 100vh;
+    z-index: -1;
+    color: #FFFFFF;
+}
+.onda{
+    width: 100vw;
+    height: auto;
+    margin-top: 10vw;
+    position: absolute;
+    z-index: 103;
+}
+.eventodiv{
+    position: absolute;
+    margin-top: 12vw;
+    margin-left: 60vh;
+}
+.evento{
+    width: auto;
+    height: 60vh;
+}
+.empdiv{
+    position: absolute;
+    margin-top: 62vw;
+    margin-left: 20vh;
+    float: left;
+}
+.emp{
+    object-fit: cover;
+    transition: transform 400ms;
+    width: auto;
+    height: 55vh;
+    float: left;
+    position: absolute;
+}
+
+.emp:hover{
+    transform: scale(1.2);
+}
+.mostradiv{
+    position: absolute;
+    margin-top: 65vw;
+    margin-left: 80vh;
+    float: left;
+}
+.mostra{
+    width: auto;
+    height: 60vh;
+    float: left;
+    position: absolute;
+}
+.espaço{
+        height: 70vh;
+        width: 20vw;
+        margin-top: 65vw;
+        position: absolute;
 }
